@@ -30,18 +30,7 @@ bbox_clarke<-st_bbox(clarke)
 
 roads_sf<-st_read("data/RoadCenterline.shp") %>%
   st_transform(4326)
-```
 
-    ## Reading layer `RoadCenterline' from data source `C:\Users\jshannon\Dropbox\Jschool\Research\Community Mapping Lab\Projects\Athens biking\BikeAthens_CURO_Fall19\data\RoadCenterline.shp' using driver `ESRI Shapefile'
-    ## replacing null geometries with empty geometries
-    ## Simple feature collection with 6088 features and 31 fields (with 1 geometry empty)
-    ## geometry type:  LINESTRING
-    ## dimension:      XY
-    ## bbox:           xmin: 2488314 ymin: 1400540 xmax: 2576766 ymax: 1470154
-    ## epsg (SRID):    NA
-    ## proj4string:    +proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=699999.9999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs
-
-``` r
 #Add a line number.
 roads_sf$L1<-1:nrow(roads_sf)
 
