@@ -15,7 +15,7 @@ library(raster)
 library(tmap)
 ```
 
-## Downloading OSM data
+## Loading road data
 
 First I loaded road data for Clarke County, which was obtained directly
 from the county. This code also includes a method for downloading these
