@@ -2,6 +2,8 @@ Creating a road elevation map in R
 ================
 Jerry Shannon
 
+This gist describes the process of calculating elevation change for roads in Athens-Clarke County, Georgia. This analysis is part of a process of creating a bike map for the county. As part of identifying the most bike (and walk) friendly routes, I and a student wanted to identify roads with the greatest elevation change.
+
 ## Downloading OSM data
 
 First I loaded road data for Clarke County, which was obtained directly
